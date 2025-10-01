@@ -1,0 +1,183 @@
+/* @import url(https://fonts/googleapis.com/css?family=Raleway: 300,400)
+
+@font-face{
+font-family: "Booter - Zero Zero";
+src:url("fonts/Booter-Zero Zero.woff") format("woff"),
+    url("fonts/Booter -Zero Zero.woff2") format ("woff2");  -------------the browser uses the forst src=source and if that one doesn't work it will you the spare one------
+font-weight:normal;
+font-style:normal;
+*/
+
+* {
+  /*general selector*/
+  box-sizing: border-box; /* now they are the same without adding defaults padding and margin*/
+  font-family: Raleway;
+  color: #777;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  margin: 0; /*by default it has a margin*/
+}
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: rgb(44, 3, 3);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.main-nav {
+  text-align: center; /*    ne radi   */
+  font-size: 1.1em; /* 10% bigger font*/
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main-nav li {
+  padding: 0 5%;
+}
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+}
+.main-header {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url(background_image_Vales-Marinaris.jpg);
+  background-blend-mode: myltiply;
+  background-size: cover; /*ovde nepotrebno ali moze da zatreba*/
+  padding-bottom: 30px;
+}
+.WebSite-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-weight: normal;
+  color: rgb(241, 241, 11);
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+.exhibitions {
+  margin-left: 575px;
+  font-size: 1em;
+  /*font-weight: bold;*/
+  color: rgb(2, 40, 27);
+  text-decoration: none;
+}
+
+.list {
+  margin-left: 300px;
+  margin-right: 200px;
+}
+
+.about {
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.simkes-art-online {
+  margin-left: 525px;
+  font-size: 2em;
+  color: gold;
+  text-decoration: none;
+}
+#photo {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  margin-right: 10px;
+}
+div {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.logo {
+  height: 50px;
+  cursor: pointer;
+}
+.logo-in {
+  padding-top: none;
+  height: 50px;
+  cursor: pointer;
+  display: inline;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-right: 400px;
+}
+
+.genre {
+  text-align: center;
+}
+.offer {
+  margin-left: 70px;
+  display: block;
+}
+.cover {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  height: 300px;
+}
+.cover:hover {
+  color: #424242;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  opacity: 1;
+  transform: scale(1.8);
+  -ms-transform: scale(1.8); /* IE 9 */
+  -webkit-transform: scale(1.8); /* Safari and Chrome */
+}
+.button_display_more {
+  /*ne radi nista*/
+
+  margin-bottom: 50px;
+  border-radius: 20px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.ideas {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  height: 300px;
+}
+.ideas:hover {
+  color: #424242;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  opacity: 1;
+  transform: scale(1.8);
+  -ms-transform: scale(1.8); /* IE 9 */
+  -webkit-transform: scale(1.8); /* Safari and Chrome */
+}
+.showcase_footer {
+  background-image: url(footer-showcase.JPG);
+  background-color: gold;
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+.email {
+  color: gold;
+  font-size: 1.5em;
+}

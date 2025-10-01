@@ -1,0 +1,88 @@
+#photo {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  margin-right: 10px;
+}
+div {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.logo {
+  height: 50px;
+  cursor: pointer;
+}
+.simkes_art {
+  text-align: center;
+}
+.genre {
+  text-align: center;
+}
+.offer {
+  margin-left: 70px;
+  display: block;
+}
+.cover {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  height: 300px;
+}
+.cover:hover {
+  color: #424242;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  opacity: 1;
+  transform: scale(1.8);
+  -ms-transform: scale(1.8); /* IE 9 */
+  -webkit-transform: scale(1.8); /* Safari and Chrome */
+}
+.button_display_more {
+  /*ne radi nista*/
+
+  margin-bottom: 50px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+.ideas {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  height: 300px;
+}
+.ideas:hover {
+  color: #424242;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  opacity: 1;
+  transform: scale(1.8);
+  -ms-transform: scale(1.8); /* IE 9 */
+  -webkit-transform: scale(1.8); /* Safari and Chrome */
+}
+.print {
+  /*ne funkcionise*/
+  display: flex;
+  justify-content: space-between;
+}
+.printing {
+  width: 100px;
+  margin-right: 300px;
+}
+.percent {
+  margin-right: 100px;
+}
+.button_store {
+  font-size: 10px;
+  border-radius: 20%;
+}
+#store_item {
+  height: 100px;
+}
